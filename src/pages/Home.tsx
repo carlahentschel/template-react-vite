@@ -1,6 +1,8 @@
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import React from 'react';
 import DefaultLayout from '../config/layout/DefaultLayout';
+import Form from '../components/Form';
+import List from '../components/List';
 
 
 const Home: React.FC = () => {
@@ -9,7 +11,8 @@ const Home: React.FC = () => {
       <Box marginLeft={20}>
         <Grid container marginTop={8}>
           <Grid item xs={12}>
-          <Typography>Home</Typography>
+            <Form />
+            <List />
           </Grid>
 
         </Grid>
